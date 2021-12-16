@@ -37,8 +37,8 @@ jobs:
         run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=kprbarani99_DemoJavaMaven
       
       # Sonar Testing Scan
-      - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@v1.6
+      #- name: SonarCloud Scan
+      #  uses: SonarSource/sonarcloud-github-action@v1.6
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
